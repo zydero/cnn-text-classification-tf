@@ -2,6 +2,8 @@
 
 It is slightly simplified implementation of Kim's [Convolutional Neural Networks for Sentence Classification](http://arxiv.org/abs/1408.5882) paper in Tensorflow.
 
+한글로 소개한 문서는 [합성곱 신경망(CNN) 딥러닝을 이용한 한국어 문장 분류](http://docs.likejazz.com/cnn-text-classification-tf)를 참고하시기 바랍니다
+
 ## Requirements
 
 - Python 3
@@ -56,11 +58,8 @@ Train:
 ## Evaluating
 
 ```bash
-./eval.py --eval_train --checkpoint_dir="./runs/1459637919/checkpoints/"
+./eval.py
 ```
-
-Replace the checkpoint dir with the output from the training. To use your own data, change the `eval.py` script to load your data.
-
 
 ## References
 
